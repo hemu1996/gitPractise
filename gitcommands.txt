@@ -3,3 +3,6 @@ git clone - used to take first copy of a git repo to your local.
 git add . - to add all files to staging area.
 
 git commit -m "<msg>" -commaand to create a commit.
+
+git revert <commit hash> -used to revert that particular commit, need to push after revert to reflect on remote.
+
