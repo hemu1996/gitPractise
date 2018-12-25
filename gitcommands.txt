@@ -6,3 +6,4 @@ git commit -m "<msg>" -commaand to create a commit.
 
 git revert <commit hash> -used to revert that particular commit, need to push after revert to reflect on remote.
 
+git reset --hard <commit hash> -mention commit hash where you want your head to point to, git reset hard needs a git push force to be done to remove commit that is already pushed.
